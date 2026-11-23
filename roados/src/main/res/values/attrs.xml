@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoadOSHazardView">
+        <!-- RVHL element ID ("RDM-003") or unambiguous slug. -->
+        <attr name="roadosHazardId" format="string" />
+        <attr name="roadosSeverity" format="enum">
+            <enum name="entryDefault" value="0" />
+            <enum name="s1" value="1" />
+            <enum name="s2" value="2" />
+            <enum name="s3" value="3" />
+            <enum name="s4" value="4" />
+            <enum name="s5" value="5" />
+        </attr>
+        <attr name="roadosTheme" format="enum">
+            <enum name="dark" value="0" />
+            <enum name="light" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
